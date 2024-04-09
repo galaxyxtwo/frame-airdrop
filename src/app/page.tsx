@@ -6,7 +6,7 @@ const IMG_URL = "https://blocklive.io/util/logo.png";
 console.log("posturl", POST_URL);
 const frameMetadata = {
   "fc:frame": "vNext",
-  "fc:frame:image": "https://blocklive.io/util/logo.png"
+  "fc:frame:image": "https://blocklive.io/util/logo.png",
   "fc:frame:button:1": "$Moop",
   "fc:frame:button:2": "$BTC",
   "fc:frame:post_url": POST_URL,
