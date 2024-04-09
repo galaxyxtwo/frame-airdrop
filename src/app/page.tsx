@@ -1,13 +1,13 @@
 import { Metadata } from "next";
 
-const POST_URL = "https://frame-airdrop.vercel.app/api/frame";
+const POST_URL = "https://frame-airdrop.vercel.app";
 const IMG_URL = "https://blocklive.io/util/logo.png";
 
 console.log("posturl", POST_URL);
 const frameMetadata = {
   "fc:frame": "vNext",
-  "fc:frame:image": IMG_URL,
-  "fc:frame:button:1": "$ETH",
+  "fc:frame:image": "https://blocklive.io/util/logo.png"
+  "fc:frame:button:1": "$Moop",
   "fc:frame:button:2": "$BTC",
   "fc:frame:post_url": POST_URL,
 };
